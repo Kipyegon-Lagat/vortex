@@ -7,11 +7,7 @@ export const metadata: Metadata = {
   description: 'Smart home security system',
 }
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+
   return (
     <html lang="en">
       <body>
