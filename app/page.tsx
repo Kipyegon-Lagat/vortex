@@ -12,13 +12,7 @@ import {
   DropdownMenuTrigger,
 } 
   from "@/components/ui/dropdown-menu"
-import { Bell, Camera, MoreVertical, LogOut } from "lucide-react"
-import { Toaster } from "@/components/ui/toaster"
-import CameraFeed from "@/components/camera-feed"
-import LockControl from "@/components/lock-control"
-import { Calendar } from "@/components/ui/calendar"
-import NotificationCenter from "@/components/notification-center"
-import { useUser } from "@/contexts/user-context"
+
 
 export default function SecurityDashboard() {
   const router = useRouter()
