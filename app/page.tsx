@@ -10,7 +10,8 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} 
+  from "@/components/ui/dropdown-menu"
 import { Bell, Camera, MoreVertical, LogOut } from "lucide-react"
 import { Toaster } from "@/components/ui/toaster"
 import CameraFeed from "@/components/camera-feed"
